@@ -1,11 +1,31 @@
 .header	{
 
 	text-align:center;
-	font-family: 'Righteous', cursive;
-	color: #00FFEC;
+	font-family: 'Poiret One', cursive;
+	color: #CC2890;
 	font-size: 36px;
+	border: solid;
+	border-color:#CC2890;
+	background-color: 	#D3D3D3;
 
 }
+
+.sections {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #CC2890;
+	font-size: 16px;
+	border:solid;
+	width: 340px;
+	padding-left: 6px;
+	padding-right: 6px;
+	background-color: 	#D3D3D3;
+}
 *	{
-	background-color: #FF92F0;
+	
+}
+
+p	{
+	font-family: 'Playfair Display', serif;
+	color: #CC2890;
+	font-size: 16px;
 }
