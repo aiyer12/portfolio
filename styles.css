@@ -15,17 +15,63 @@
 	color: #CC2890;
 	font-size: 16px;
 	border:solid;
-	width: 340px;
+	width: 42%;
 	padding-left: 6px;
 	padding-right: 6px;
 	background-color: 	#D3D3D3;
 }
 *	{
-	
+	max-width: 1100px;
 }
 
 p	{
 	font-family: 'Playfair Display', serif;
 	color: #CC2890;
 	font-size: 16px;
+}
+
+img {
+	width: 200px;
+	border: solid;
+	border-color:#CC2890;
+	max-height: 200px;
+	margin-right:100px;
+}
+
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+#cf {
+	position: relative;
+	margin-right: 0 auto;
+}
+
+#cf img {
+	position: absolute;
+	left: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+ 	opacity:0;
+}
+
+.bottom {
+	margin-right:100px;
+	margin-top: 12px;
+}
+
+.top {
+	margin-right:100px;
+	margin-top:;
+}
+
+.wrap2 {
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
 }
