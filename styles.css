@@ -36,6 +36,7 @@ img {
 	border-color:#CC2890;
 	max-height: 200px;
 	margin-right:100px;
+	align-self: auto;
 }
 
 .wrap {
@@ -59,19 +60,37 @@ img {
  	opacity:0;
 }
 
+
+
 .bottom {
+	width: 200px;
+	border: solid;
+	border-color:#CC2890;
+	max-height: 200px;
 	margin-right:100px;
-	margin-top: 12px;
+	height: 150px;
+	margin-left: 150px;
 }
 
 .top {
+	width: 200px;
+	border: solid;
+	border-color:#CC2890;
+	max-height: 200px;
 	margin-right:100px;
-	margin-top:;
+	height: 150px;
+	margin-left: 150px;
 }
 
 .wrap2 {
 	margin-top: 12px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	flex-direction: row;
+	flex-wrap: wrap;
+	align-self: auto;
+}
+
+.container {
+	align-items: auto;
 }
