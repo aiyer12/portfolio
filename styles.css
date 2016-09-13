@@ -92,5 +92,16 @@ img {
 }
 
 .container {
-	align-items: auto;
+	vertical-align: middle;
+
+}
+
+.header:hover {
+	-webkit-transform: scale(1.1);
+        background: #CCFFBA;
+     transition: all 0.3s ease;
+}
+
+.sections:hover {
+	background: #CCFFBA;
 }
